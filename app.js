@@ -1,13 +1,14 @@
 const express = require('express');
 const { ComputerVisionClient } = require('@azure/cognitiveservices-computervision');
 const { ApiKeyCredentials } = require('@azure/ms-rest-js');
+require('dotenv').config();
 
 const app = express();
 const port = 3000;
 
-const key = 'YOUR_KEY_HERE';
-const endpoint = 'https://imagecv-model.cognitiveservices.azure.com/';
-
+const key = process.env.AZURE_CV_KEY;
+const endpoint = process.env.AZURE_CV_ENDPOINT;
+debugger;
 const computerVisionClient = new ComputerVisionClient(new ApiKeyCredentials({ inHeader: { 'Ocp-Apim-Subscription-Key': key } }), endpoint);
 
 app.use(express.json());
