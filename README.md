@@ -82,6 +82,9 @@ All the APIs will be accessible at `http://localhost:3000`.
        "modelVersion": "2021-05-01"
      }
      ```
+     - **Demo**:
+      ![Image Statistics Demo](./media/2.gif)
+
 3. Object Recognition
    - **Endpoint**: `/api/v1/recognize-objects`
    - **Method**: `POST`
@@ -165,6 +168,9 @@ All the APIs will be accessible at `http://localhost:3000`.
        "modelVersion": "2021-04-01"
      }
      ```
+     - **Demo**:
+      ![Image Statistics Demo](./media/3.gif)
+
 4. Brand Recognization
    - **Endpoint**: `/api/v1/recognize-brand`
    - **Method**: `POST`
@@ -201,6 +207,9 @@ All the APIs will be accessible at `http://localhost:3000`.
        "modelVersion": "2021-04-01"
      }
      ```
+     - **Demo**:
+      ![Image Statistics Demo](./media/4.gif)
+
 ### Error Handling:
 Proper error handling is implemented to enhance the robustness of the API. The API provides meaningful error responses for different scenarios. Here are some of the scenarios:
 
@@ -221,3 +230,11 @@ Proper error handling is implemented to enhance the robustness of the API. The A
         "error": "Internal Server Error"
     }
     ```
+## Conclusion
+
+You have successfully explored the Azure Computer Vision API documentation. With these powerful endpoints, you can now integrate image analysis capabilities into your applications, extracting valuable insights from visual content.
+
+## References
+
+- [Azure Computer Vision API Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/)
+- [Azure Computer Vision API Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/)
