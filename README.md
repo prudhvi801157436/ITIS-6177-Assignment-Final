@@ -49,7 +49,7 @@ All the APIs will be accessible at `157.245.9.150:3000`.
        "modelVersion": "2021-05-01"
      }
      ```
-    - **Demo**:
+     - **Demo**:
       ![Image Statistics Demo](https://github.com/prudhvi801157436/ITIS-6177-Assignment-Final/blob/main/media/1.gif)
 
 2. Image Description
