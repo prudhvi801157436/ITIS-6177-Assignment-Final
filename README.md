@@ -50,7 +50,7 @@ All the APIs will be accessible at `http://localhost:3000`.
      }
      ```
     - **Demo**:
-      ![Image Statistics Demo](./media/1.gif)
+      ![Image Statistics Demo](https://github.com/prudhvi801157436/ITIS-6177-Assignment-Final/blob/main/media/1.gif)
 
 2. Image Description
    - **Endpoint**: `/api/v1/image-description`
@@ -83,7 +83,7 @@ All the APIs will be accessible at `http://localhost:3000`.
      }
      ```
      - **Demo**:
-      ![Image Statistics Demo](./media/2.gif)
+      ![Image Statistics Demo](https://github.com/prudhvi801157436/ITIS-6177-Assignment-Final/blob/main/media/2.gif)
 
 3. Object Recognition
    - **Endpoint**: `/api/v1/recognize-objects`
@@ -169,7 +169,7 @@ All the APIs will be accessible at `http://localhost:3000`.
      }
      ```
      - **Demo**:
-      ![Image Statistics Demo](./media/3.gif)
+      ![Image Statistics Demo](https://github.com/prudhvi801157436/ITIS-6177-Assignment-Final/blob/main/media/3.gif)
 
 4. Brand Recognization
    - **Endpoint**: `/api/v1/recognize-brand`
@@ -208,7 +208,7 @@ All the APIs will be accessible at `http://localhost:3000`.
      }
      ```
      - **Demo**:
-      ![Image Statistics Demo](./media/4.gif)
+      ![Image Statistics Demo](https://github.com/prudhvi801157436/ITIS-6177-Assignment-Final/blob/main/media/4.gif)
 
 ### Error Handling:
 Proper error handling is implemented to enhance the robustness of the API. The API provides meaningful error responses for different scenarios. Here are some of the scenarios:
