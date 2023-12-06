@@ -8,7 +8,6 @@ const port = 3000;
 
 const key = process.env.AZURE_CV_KEY;
 const endpoint = process.env.AZURE_CV_ENDPOINT;
-debugger;
 const computerVisionClient = new ComputerVisionClient(new ApiKeyCredentials({ inHeader: { 'Ocp-Apim-Subscription-Key': key } }), endpoint);
 
 app.use(express.json());
