@@ -14,7 +14,7 @@ Before using/consuming the APIs, ensure you have the following:
 
 ### Accessing the APIs:
 
-All the APIs will be accessible at `http://localhost:3000`.
+All the APIs will be accessible at `157.245.9.150:3000`.
 
 ### Endpoints
 
