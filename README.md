@@ -49,6 +49,9 @@ All the APIs will be accessible at `http://localhost:3000`.
        "modelVersion": "2021-05-01"
      }
      ```
+    - **Demo**:
+      ![Image Statistics Demo](./media/1.gif)
+      
 2. Image Description
    - **Endpoint**: `/api/v1/image-description`
    - **Method**: `POST`
