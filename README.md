@@ -28,7 +28,7 @@ All the APIs will be accessible at `http://localhost:3000`.
      }
      ```
    - **Description**: This endpoint will return the image statistics for the given image URL.
-   - **Ideal Response Status Code**: <font color="green">200 OK</font>
+   - **Ideal Response Status Code**:  $\color{green}{200}$ $\color{green}{OK}$
    - Here is the sample response for the above request:
      ```json
      {
@@ -62,7 +62,7 @@ All the APIs will be accessible at `http://localhost:3000`.
      }
      ```
    - **Description**: This endpoint will return the image description for the given image URL.
-   - **Ideal Response Status Code**: <font color="green">200 OK</font>
+   - **Ideal Response Status Code**:  $\color{green}{200}$ $\color{green}{OK}$
    - Here is the sample response for the above request:
      ```json
      {
@@ -92,7 +92,7 @@ All the APIs will be accessible at `http://localhost:3000`.
      }
      ```
    - **Description**: This endpoint will return the array of objects recognized in the given image URL.
-   - **Ideal Response Status Code**: <font color="green">200 OK</font>
+   - **Ideal Response Status Code**: $\color{green}{200}$ $\color{green}{OK}$
    - Here is the sample response for the above request:
      ```json
      {
@@ -175,7 +175,7 @@ All the APIs will be accessible at `http://localhost:3000`.
      }
      ```
    - **Description**: This endpoint will return the brand name that is identified in the given image URL.
-   - **Ideal Response Status Code**: <font color="green">200 OK</font>
+   - **Ideal Response Status Code**: $\color{green}{200}$ $\color{green}{OK}$
    - Here is the sample response for the above request:
      ```json
      {
@@ -204,7 +204,7 @@ All the APIs will be accessible at `http://localhost:3000`.
 ### Error Handling:
 Proper error handling is implemented to enhance the robustness of the API. The API provides meaningful error responses for different scenarios. Here are some of the scenarios:
 
-1. If the request is missing the `imageUrl` parameter, a <font color="#FF7F50"> 400 Bad Request</font> response will be returned.
+1. If the request is missing the `imageUrl` parameter, a $\color{orange}{400}$ $\color{orange}{Bad}$ $\color{orange}{Response}$ response will be returned.
 
 
     Example Response:
@@ -213,7 +213,7 @@ Proper error handling is implemented to enhance the robustness of the API. The A
         "error": "image URL is required in your request body"
     }
     ```
-2. If there are any issues either with the request or the response from the Azure Computer Vision API, a <font color="red"> 500 Internal Server Error</font> response will be returned.
+2. If there are any issues either with the request or the response from the Azure Computer Vision API, a $\color{red}{500}$ $\color{red}{Internal}$ $\color{red}{Server}$ $\color{red}{Error}$ response will be returned.
 
     Example Response:
     ```json
